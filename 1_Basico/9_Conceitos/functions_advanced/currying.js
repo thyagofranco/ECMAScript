@@ -1,3 +1,10 @@
+/* 
+Em ciência da computação, currying é uma técnica de transformação 
+de uma função que recebe múltiplos parâmetros de forma que ela 
+pode ser chamada como uma cadeia de funções que recebem somente um parâmetro cada.
+*/
+
+
 //Função normal:
 
 function soma_basica(a, b){

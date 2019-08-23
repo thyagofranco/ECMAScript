@@ -37,6 +37,8 @@ Conceitos da linguagem
 #### OOP
 Orientada a objetos baseada em protótipos, não possuindo classes. (<ES5). Objetos herdam de outros objetos. Isso até 2015, ES6 adicionou classes, módulos entre outras melhorias.
 
+Funções e Arrays são objetos em Javascript (por baixo dos panos).
+
 #### Tipagem
 - Tipagem fraca: Você pode fazer operações entre tipos de variável diferentes
 ( 1 + ‘1’ → ‘11’)   (1 + ‘Meu texto’ → “1Meu texto”)

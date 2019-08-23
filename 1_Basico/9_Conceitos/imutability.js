@@ -56,3 +56,5 @@ console.log(getApprovedStudents(students));
 
 console.log('\nLista de alunos:')
 console.log(students);
+
+// Filter , Map, Reduce retornam um novo array, um novo objeto.

@@ -1,6 +1,8 @@
 /*
 
-
+Em ciência da computação e na programação uma clausura é uma função que referencia variáveis livres no contexto léxico. 
+Uma clausura ocorre normalmente quando uma função é declarada dentro do corpo de outra, 
+e a função interior referencia variáveis locais da função exterior
 
 */
 
