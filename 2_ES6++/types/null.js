@@ -1,3 +1,7 @@
+/*
+null é ausência de valor
+*/
+
 const nullVariable = null;
 
 console.log(typeof(nullVariable)); //object 

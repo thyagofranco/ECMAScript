@@ -192,7 +192,12 @@ var n1 = !true; //   false
 var n1 = !false; //  true    
 var n1 = !"Gato"; //  false     
 
-
+### (!!)
+Retorna o valor boleano da variável:   
+var a = 0;
+!!a //  false
+var b = 1
+!!b //  true
 
 ## O que retorna true ?
 "."     // String    
@@ -259,5 +264,24 @@ var dia = new Date(2018, 12, 17);
 if (dia instanceof Date) {   // true   
         // code here   
 }
+
+
+(new)
+======
+
+new construtor[([argumentos])]   
+
+O operador new cria uma instacia de um tipo de objeto definido pelo usuário ou de um dos tipos nativos (built-in)  que possuem uma função construtora.
+
+function Car(make, model, year) {   
+  this.make = make;    
+  this.model = model;    
+  this.year = year;    
+}    
+
+var car1 = new Car('Eagle', 'Talon TSi', 1993);    
+
+console.log(car1.make);   
+// expected output: "Eagle"   
 
 

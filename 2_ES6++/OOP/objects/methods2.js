@@ -1,0 +1,3 @@
+var pessoa = {
+    nome: "João"
+}

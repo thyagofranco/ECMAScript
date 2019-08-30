@@ -1,13 +1,8 @@
-//  true or false
+var isento =  true;
+var estudante = false;
 
-
-
-const isActivate = true;
-
-const isAuthenticated = false;
-
-console.log(typeof(isAuthenticated));
-
+isento.toString(); //"true"
+estudante.valueOf(); // false
 
 /**
  * 
@@ -33,3 +28,5 @@ console.log(typeof(isAuthenticated));
  * Todo o resto e true por padrão
  * 
  */
+
+ 
