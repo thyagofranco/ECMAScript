@@ -14,7 +14,7 @@ function Cachorro(morde) {
 }
 
 
-Cachorro.prototype = Object.create(Animal); // quando criar prototype de cachorro, derivamos ele de prototype de animal
+Cachorro.prototype = Object.create(Animal); // 
 Cachorro.prototype.latir = function(){console.log('Au! au!')};
 
 
@@ -46,3 +46,4 @@ const pug = new Cachorro(false);
 Cachorro.prototype.latir = function(){console.log('Au! au!')};  // Mostrando que realmente por baixo dos panos prototype é utilizado.
 
 pug.latir();
+console.log(Cachorro);

@@ -16,13 +16,15 @@
  class Cachorro extends Animal {
      constructor(morde){
          super(4); // construtor da classe pai
-         this.morde = 4;
+         this.morde = morde;
      }
  }
 
 const pug = new Cachorro(false);
 console.log(pug)
 
+pug.morde = 'Jujuba'; //problema de visibilitadae
+console.log(pug)
 
 //================================================
 class Pessoa {

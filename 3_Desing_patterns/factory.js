@@ -1,5 +1,5 @@
 
-// não é Factory
+// Função Construtora, não é Factory
 function FakeUser() {
     this.name: 'Thyago';
     this.lastName: 'Franco';

@@ -1,7 +1,5 @@
 'use strict'
 
-/**
-
 class Person{
     #name = '';
 
@@ -17,5 +15,8 @@ class Person{
         return this.#name;
     }
 }
-*/
 
+const thyago = new Person();
+
+thyago.setName('Thyago');
+console.log(thyago.getName());
