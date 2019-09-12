@@ -9,8 +9,8 @@
                 "type": "chrome",
                 "request": "launch",
                 "name": "Launch Chromium against localhost",
-                "url": "http://localhost:4200/#",
-                "webRoot": "${workspaceFolder}/2_ES6++/OOP/classe/example_function.js",
+                "url": "http://localhost:8080/#",
+                "webRoot": "${workspaceFolder}",
                 "runtimeExecutable": "/usr/bin/chromium",
                 "runtimeArgs": [
                     "--new-window",

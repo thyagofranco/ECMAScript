@@ -41,8 +41,15 @@ javscript é multiparadigma, pode trabalhar orientada a objetos, funcinal, etc..
 
 
 
-Herança
-=======
+Herança Diferencial
+==============
+
+### Delegation over inheritance
+
+Um objeto so pode fazer o que pode fazer, caso não possa, ele pode delegar a outro objeto, e a forma default de delegação é para seu objeto protótipo.  
+O objeto criado com referencia a um protótipo, só possui em si, as caracteristicas que o diferenciam do seu objeto protótipo.
+
+
 No javascript a herança é baseada em prototipos (prototype).   
 Prototype é uma variável que armazena as informações do nosso objeto. Ao criar uma variavel no javascript, ela tem a referência __proto__ que aponta para o prototype do TYPE que a variável foi criado. Esse TYPE,chamamos de constructor.    
 
@@ -50,7 +57,7 @@ Prototype é uma variável que armazena as informações do nosso objeto. Ao cri
 
 
 
-Classes
+Classes em javascript
 =======
 Açucar sintático adicionado no ES6, que por baixo dos panos utiliza prototype.   
 class, extends, constructor, super, static.    
@@ -70,6 +77,13 @@ Prototype é um objeto que é referenciado por outros objetos, os objetos que re
 
 Portanto, ao tentar acessar uma propriedade que o objeto não tem, esta propriedade será buscada no seu prototype.   
 
+## Trabalhando com protótipos. 
+- Criamos um objeto, seja de forma literal ou através de funções.
+- Criamos novos objetos que referenciam(herdam) diretamente outros objetos, e conseguimos compor objetos com as propriedades de seu objeto prototípo(referenciado)
+- Podemos customizar diretamente os novos objetos
+
+Não é necessário fazer a taxonomia (classificação) antecipada dos objetos, definindo de onde eles herdam, de qual classe eles herdam, o que implementam.
+Essa definição antecipada da hierarquia que os sistemas classicos baseados em classes dispõe, causa um acoplamento muito grande.
 
 ### Propriedade .prototype
 Só existe em funções.   
@@ -79,6 +93,8 @@ A função construtora de um objeto tem uma propriedade chamada .prototype que �
 Neste objeto/propriedade .prototype, podemos armazenar propriedades que gostariamos que os objetos criados por essa função através do 
 operador new, tivessem links a este prototype.
 
+
+### Delegation over inheritence 
 
 Modificadores de acesso 
 =======================

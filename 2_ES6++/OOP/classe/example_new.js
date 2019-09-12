@@ -18,8 +18,6 @@ const Cup = function (material = 'vidro') {
     this.showMaterial = ()=> console.log(`É de ${this._material}`)
 };
 
-Cup.prototype = Object.create(Container.prototype);
-
 
 const myCup = new Cup();
 myCup.capacity = 10;
