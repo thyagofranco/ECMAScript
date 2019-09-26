@@ -1,0 +1,17 @@
+{
+  "name": "5_Testes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "math.spec.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "sinon": "^7.5.0"
+  }
+}
